@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>dl - annotator</title>
+</head>
+<body>
+    <h1>dl-annotator</h1>
+    <button id="open_file">Open audio file (wav / mp3)</button>
+    <br>
+    <button id="get_output_dir">Specify directory to output annotations to</button>
+    <p><strong>Output annotations to:</strong> <span id="output_dir"></span></p>
+    <div>
+        <audio controls></audio>
+    </div>
+    <button id="reset_annotations">Reset annotations</button>
+    <section>
+        <h2>Howto</h2>
+        <p>
+            <ol>
+                <li>Open a file using the 'Open audio file' button.</li>
+                <li>Specify where to output annotations to using the 'Specify directory ...' button.</li>
+                <li>Play the recording AND make sure to click somewhere outside the player (for instance here on this howto).</li>
+                <li>Press spacebar to add annotation(s).</li>
+                <li>When done, navigate to the directory you specified to locate file with annotations (note: it is compatible with Raven).</li>
+            </ol>
+        </p>
+    </section>
+</body>
+<script src="renderer.js"></script>
+</html>

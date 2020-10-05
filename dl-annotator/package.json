@@ -1,0 +1,17 @@
+{
+  "name": "dl-annotator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "The Earth Species Project",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^5.3.2",
+    "dataurl": "^0.1.0",
+    "electron": "^9.1.0",
+    "electron-reload": "^1.5.0"
+  }
+}

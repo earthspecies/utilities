@@ -1,0 +1,31 @@
+:root {
+    font: menu;
+}
+
+h1 {
+    color: darkblue;
+}
+
+button {
+    margin-bottom: 10px;
+    outline: none;
+}
+
+audio {
+    background-color: white;
+    outline: none;
+}
+
+.add-anno {
+    background-color: darkgoldenrod;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+#reset_annotations {
+    margin-top: 20px;
+}
