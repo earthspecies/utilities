@@ -1,6 +1,6 @@
-# Utils
+# ESP Utilities
 
-A repository for organizing various little tools we develop as we go about our work.
+A repository for organizing various tools we develop as we go about our work.
 
 | name | description |
 | ------------- | ------------- |
